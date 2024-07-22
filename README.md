@@ -22,3 +22,13 @@ pip install confluent_kafka prometheus_client
 ## Code Python
 
 Dalam proyek ini, saya menggunakan kode Python yang mengambil nilai latency dan metrik lainnya dari librdkafka. Jika kita lihat pada dokumentasi [librdkafka](https://docs.confluent.io/platform/current/clients/librdkafka/html/md_INTRODUCTION.html#consumer-groups), kita bisa mendapatkan berbagai metrik dari statistik yang disediakan.
+
+## Memeriksa Metrik di Prometheus
+
+Setelah menjalankan script Python untuk produser atau konsumer Kafka, server Prometheus akan mulai mengekspor metrik di localhost:8000 dan dapat memeriksa metrik dengan mengunjungi URL berikut di browser :
+
+```
+http://localhost:8000
+```
+
+![image](https://github.com/user-attachments/assets/30d4328b-e42a-4ce0-a379-5ab3a888161d)
