@@ -17,7 +17,8 @@ Anda dapat menginstal dependensi ini menggunakan pip:
 
 ```bash
 pip install confluent_kafka prometheus_client
+```
 
-Code Python
+## Code Python
 
-Dalam proyek ini, saya menggunakan kode Python yang mengambil nilai latency dan metrik lainnya dari librdkafka. Jika kita lihat pada dokumentasi librdkafka, kita bisa mendapatkan berbagai metrik dari statistik yang disediakan.
+Dalam proyek ini, saya menggunakan kode Python yang mengambil nilai latency dan metrik lainnya dari librdkafka. Jika kita lihat pada dokumentasi [librdkafka](https://docs.confluent.io/platform/current/clients/librdkafka/html/md_INTRODUCTION.html#consumer-groups), kita bisa mendapatkan berbagai metrik dari statistik yang disediakan.
